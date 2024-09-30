@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem De Vagas</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="General">
+<h1>- - Listagem De Vagas - -</h1>
+
+<div class="Vagas">
+
+<div class="TabelaVagas">
+<h2 class="VagasHeader">Vagas Cadastradas:</h2>
+<button class="Buttons"  onclick="Vaga01()">Vaga01</button>
+<button class="Buttons"  onclick="Vaga02()">Vaga02</button>
+<button class="Buttons"  onclick="Vaga03()">Vaga03</button>
+<button class="Buttons"  onclick="Vaga04()">Vaga04</button>
+
+</div>
+    
+<div class="InfVagas">
+    <div class="LabelCadastro">
+
+        <label class ="LabelBox">Placa Do Veículo:</label>
+        <input class="TextBox" type="text" id="Placa" placeholder="">
+    
+        </div>
+    
+        <div class="LabelCadastro">
+    
+        <label class ="LabelBox" >Nome Proprietário:</label>
+        <input class ="TextBox" type="text" id="NomeProp" placeholder="">
+    
+        </div>
+        <div class="LabelCadastro">
+    
+        <label class ="LabelBox">Número Do Apartamento:</label>
+        <input class="TextBox" type="text" id="NumApartamento" placeholder="">
+    
+        </div>
+        <div class="LabelCadastro">
+    
+        <label class ="LabelBox" >Bloco Do Apartamento:</label>
+        <input class="TextBox" type="text" id="BlocoApartamento" placeholder="">
+    
+        </div>
+        <div class="LabelCadastro">
+    
+        <label class = "LabelBox">Modelo Do Veículo:</label>
+        <input class="TextBox" type="text" id="ModeloVeículo" placeholder="">
+    
+        </div>
+        <div class="LabelCadastro">
+    
+        <label class ="LabelBox">Cor Do Veículo:</label>
+        <input class="TextBox" type="text" id="CorVeiculo" placeholder="">
+    
+        </div>
+        <div class="LabelCadastro">
+    
+        
+        <label class="LabelBox" >Número Da Vaga:</label>
+        <input class="TextBox" type="text" id="IdVaga" placeholder="">
+    
+        </div>
+
+</div>
+
+</div>
+
+
+<div class = "Acoes">
+    <button class = "Buttons" onclick="remover()"> Remover Cadastro </button>
+    <button class = "Buttons" onclick="vagas()"> Listar Vagas </button>
+    <a href="Cadastros.html"><button class = "Buttons"> Tela De Cadastro </button></a>
+</div>
+</div>
+</body>
+</html>

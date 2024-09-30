@@ -1,0 +1,116 @@
+
+.body{
+
+}
+
+.General{
+width: 50%;
+height: 100%;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+border-radius: 10px;
+border-width: 2px;
+background-color: rgb(211, 211, 211);
+}
+
+h1{
+margin: 5px;
+height: 50px;
+color: black;
+text-align: center;
+align-content: center;
+background-color: rgb(211, 211, 211);
+
+}
+
+.Cadastros{
+margin: 5px;
+height: 400px;
+background-color: rgb(211, 211, 211);
+border-radius: 10px;
+border-width: 2px;
+}
+
+.Vagas{
+    margin: 5px;
+    height: 600px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    border-width: 2px;
+    }
+
+.Acoes{
+margin: 5px;
+height: 50px;
+background-color: rgb(211, 211, 211);
+border-radius: 10px;
+border-width: 2px;
+}
+
+.LabelCadastro{
+margin: 5px;
+width: 97%;
+height: 11%;
+border-style: solid;
+border-color: black;
+background-color: rgb(211, 211, 211);
+align-content: center;
+text-align: left;
+border-radius: 10px;
+border-width: 2px;
+}
+
+.TextBox{
+width: 200px;
+border-color: gray;
+background-color: rgb(240, 240, 240);
+color: black;
+}
+
+.LabelBox{
+margin: 5px;
+width: 180px;
+display: inline-block;
+text-align: left;
+font-size: 17px;
+
+}
+
+.Buttons{
+height: 30px;
+color: black;
+margin: 5px;
+border-color: gray;
+border-width: 2px;
+border-radius: 10px;
+
+
+}
+
+.Acoes{
+    text-align: center;
+}
+
+.TabelaVagas{
+margin: 5px;
+height: 200px;
+border-style: solid;
+border-color: black;
+background-color: rgb(211, 211, 211);
+border-radius: 10px;
+border-width: 2px;
+}
+
+.InfVagas{
+height: 370px;
+margin: 5px;
+background-color: rgb(211, 211, 211);
+border-radius: 10px;
+border-width: 2px;
+}
+
+.VagasHeader{
+    margin: 5px;
+    text-align: center;
+}
+
